@@ -3,10 +3,10 @@
 
   .sections {
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 10vh);
     background-color: rgb(255, 251, 0);
     position: relative;
-    top: 70px;
+    top: 10vh;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     scrollbar-width: none;
@@ -16,7 +16,7 @@
 
     > * {
       width: 100vw;
-      height: calc(100vh - 70px);
+      height: calc(100vh - 10vh);
       scroll-snap-align: start;
     }
   }
