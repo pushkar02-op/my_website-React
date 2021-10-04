@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .work {
   background-color: var(--color-extra);
   display: flex;
@@ -9,6 +11,9 @@
     height: 50px;
     position: absolute;
     cursor: pointer;
+    @include mobile {
+      display: none;
+    }
 
     &.left {
       left: 100px;
@@ -26,6 +31,11 @@
     position: absolute;
     left: 0;
     transition: all 1s ease-out;
+    @include mobile {
+      height: 90vh;
+      flex-direction: column;
+      justify-content: center;
+    }
 
     .container {
       width: 100vw;
@@ -41,6 +51,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        @include mobile {
+          width: 80%;
+          height: 150px;
+          margin: 5px 0px;
+        }
 
         .left {
           flex: 4;
@@ -67,19 +82,31 @@
 
               img {
                 width: 25px;
+                @include mobile {
+                  height: 100%;
+                }
               }
             }
             h2 {
               font-size: 20px;
+              @include mobile {
+                font-size: 10px;
+              }
             }
             p {
               font-size: 13px;
+              @include mobile {
+                font-size: 6px;
+              }
             }
             span {
               font-size: 12px;
               font-weight: 600;
               text-decoration: underline;
               cursor: pointer;
+              @include mobile {
+                font-size: 8px;
+              }
             }
           }
         }
@@ -93,6 +120,9 @@
           img {
             width: 400px;
             height: 400px;
+            @include mobile {
+              height: 100%;
+            }
           }
         }
       }
