@@ -5,8 +5,8 @@ import {
   featuredPortfolio,
   webPortfolio,
   mobilePortfolio,
-  designPortfolio,
-  contentPortfolio,
+  cloudPortfolio,
+  devopsPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
@@ -28,15 +28,15 @@ export default function Portfolio() {
         break;
 
       case "Cloud":
-        setdata(designPortfolio);
+        setdata(cloudPortfolio);
         break;
 
-      case "Backend":
-        setdata(contentPortfolio);
+      case "Devops":
+        setdata(devopsPortfolio);
         break;
 
       default:
-        setdata(designPortfolio);
+        setdata(featuredPortfolio);
     }
   }, [selected]);
 
@@ -55,14 +55,16 @@ export default function Portfolio() {
     },
     {
       id: "Cloud",
-      title: "Hybrid Multi Cloud",
+      title: "Cloud",
     },
     {
-      id: "Backend",
-      title: "Backend",
+      id: "Devops",
+      title: "Devops",
     },
   ];
-
+  const openLink = (link) => {
+    window.open(link, "mywindow");
+  };
   return (
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
@@ -78,7 +80,7 @@ export default function Portfolio() {
       </ul>
       <div className="container">
         {data.map((d) => (
-          <div className="item">
+          <div className="item" onClick={() => openLink(d.link)}>
             <img src={d.img} alt="" />
             <h3>{d.title}</h3>
           </div>

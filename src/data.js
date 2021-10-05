@@ -1,164 +1,145 @@
 export const featuredPortfolio = [
   {
     id: 1,
-    title: "Social Media App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Fintech B2B Order Management App using Java, MySql, jsp ",
+    img: "https://raw.githubusercontent.com/pushkar02-op/Mytaskimages/master/HighradiusRepoImages/LoginPage.png",
+    link: "https://github.com/pushkar02-op/HighradiusWinterInternship2020",
   },
   {
     id: 2,
-    title: "Rampa UI Design",
-    img: "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+    title: "React-Dashboard using React, Redux, Redux saga, Mui",
+    img: "https://raw.githubusercontent.com/pushkar02-op/Mytaskimages/master/HighradiusRepoImages/React-Dashboard/Screenshot%20(8).png",
+    link: "https://github.com/pushkar02-op/React_Highradius",
   },
   {
     id: 3,
-    title: "E-commerce Web Design",
-    img: "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+    title:
+      "Hybrid Multi Cloud Setup-WordPress on Kubernetes and RDS  of AWS for data Storage",
+    img: "https://media-exp1.licdn.com/dms/image/C4E12AQEdRDZK8Twezg/article-cover_image-shrink_720_1280/0/1602613232293?e=1639008000&v=beta&t=1YBdm9qHgqJcDEOLPiFnZ5lSCM0gueFd6j4hG5AT2Wo",
+    link: "https://www.linkedin.com/pulse/hybrid-multi-cloud-setup-wordpress-deployed-kubernetes-pushkar-kumar",
   },
   {
     id: 4,
-    title: "Relax Mobile App",
-    img: "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+    title:
+      "Deploy Wordpress+Mysql on AWS and Create a NAT Gateway and Bastion host for management",
+    img: "https://media-exp1.licdn.com/dms/image/C4E12AQFmGAwq2o-egA/article-cover_image-shrink_423_752/0/1603225374361?e=1639008000&v=beta&t=fzeKibN4gUxpTD97yt-afQm3qIokSq96c8j9kObzsnY",
+    link: "https://www.linkedin.com/pulse/deploy-wordpressmysql-aws-create-nat-gateway-bastion-host-kumar",
   },
   {
     id: 5,
-    title: "Hero Web Design",
-    img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+    title:
+      "Full Backend API app with node docker sql and fast deploy using Terraform ",
+    img: "https://miro.medium.com/max/1600/1*_MtS4HqN2srTcrSyet61DQ.jpeg",
+    link: "https://github.com/pushkar02-op/node-docker",
   },
   {
     id: 6,
-    title: "Banking App",
-    img: "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+    title: "Ansible- Playbook to configure web Apache Server on Docker",
+    img: "https://media-exp1.licdn.com/dms/image/C4E12AQENCS6fDbYybQ/article-cover_image-shrink_423_752/0/1598097235990?e=1639008000&v=beta&t=t628KwIabLtw9eI_n4Z0Bpu13r_TGmhst2d5XyPdi3g",
+    link: "https://www.linkedin.com/pulse/ansible-playbook-configure-web-apache-server-pushkar-kumar",
   },
 ];
 
 export const webPortfolio = [
   {
     id: 1,
-    title: "Web Social Media App",
-    img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+    title: "My Portfolio",
+    img: "https://raw.githubusercontent.com/pushkar02-op/Mytaskimages/master/MyPortfolioImages/Screenshot%20(3).png",
+    link: "https://github.com/pushkar02-op/my_website-React",
   },
   {
     id: 2,
-    title: "Web Rampa UI Design",
-    img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+    title: "React-Dashboard using React, Redux, Redux saga, Mui",
+    img: "https://raw.githubusercontent.com/pushkar02-op/Mytaskimages/master/HighradiusRepoImages/React-Dashboard/Screenshot%20(8).png",
+    link: "https://github.com/pushkar02-op/React_Highradius",
   },
   {
     id: 3,
-    title: "Web E-commerce Design",
-    img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 4,
-    title: "Web Relax App",
-    img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
-  },
-  {
-    id: 5,
-    title: "Web Design",
-    img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-  },
-  {
-    id: 6,
-    title: "Web Banking App",
-    img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
+    title: "Resort Website using Html,Css and JS",
+    img: "https://raw.githubusercontent.com/pushkar02-op/Mytaskimages/master/Websites/Screenshot%20(9).png",
+    link: "https://github.com/pushkar02-op/Websites/tree/main/Resort-Website",
   },
 ];
 
 export const mobilePortfolio = [
   {
     id: 1,
-    title: "Mobile Social Media App",
-    img: "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
+    title:
+      "Basic Music App with Play, Pause, Stop and Forward Buttons using Flutter",
+    img: "https://media-exp1.licdn.com/dms/image/C4E12AQF4TL6q4t5cOg/article-cover_image-shrink_720_1280/0/1597226666433?e=1639008000&v=beta&t=baxcG0l_nOMojXP80TZkfqQy7kFaziyiBqE03OPxjBg",
+    link: "https://www.linkedin.com/pulse/flutter-app-development-create-basic-music-play-pause-pushkar-kumar",
   },
   {
     id: 2,
-    title: "Mobile Rampa UI Design",
-    img: "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 3,
-    title: "Mobile E-commerce Design",
-    img: "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 4,
-    title: "Mobile Relax App",
-    img: "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 5,
-    title: "Mobile Hero Design",
-    img: "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 6,
-    title: "Mobile Banking App",
-    img: "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+    title: "Simple Messaging app using Flutter and Firebase",
+    img: "https://media-exp1.licdn.com/dms/image/C4E12AQF4TL6q4t5cOg/article-cover_image-shrink_720_1280/0/1597226666433?e=1639008000&v=beta&t=baxcG0l_nOMojXP80TZkfqQy7kFaziyiBqE03OPxjBg",
+    link: "https://github.com/pushkar02-op/Chat_app",
   },
 ];
 
-export const designPortfolio = [
+export const cloudPortfolio = [
   {
     id: 1,
-    title: "Design Social Media App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title:
+      "Infrastructure as a Code(IAAC) using AWS Services and TERRAFORM + GITHUB",
+    img: "https://media-exp1.licdn.com/dms/image/C5612AQFrT07-0nsNXQ/article-cover_image-shrink_720_1280/0/1592164152633?e=1639008000&v=beta&t=vDve3aS5xvn8mAM0o6yQMSJXj9jQdWUby5sLW9nyHxw",
+    link: "https://www.linkedin.com/pulse/infrastructure-codeiaac-using-aws-services-terraform-github-kumar",
   },
   {
     id: 2,
-    title: "Design Rampa UI Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title:
+      "Implementing EKS Cluster with different AWS Services Like EC2 , EFS, ELB and EBS.",
+    img: "https://media-exp1.licdn.com/dms/image/C4E12AQHJTPGTf6HoGw/article-cover_image-shrink_423_752/0/1594958035249?e=1639008000&v=beta&t=klDCNpJ8qo9uKMSmANkWa-oaK6sRrcWvTTnEE6BGJXc",
+    link: "https://www.linkedin.com/pulse/implementing-eks-cluster-different-aws-services-like-ec2-kumar",
   },
   {
     id: 3,
-    title: "Design E-commerce Web Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title:
+      "Infrastructure as a Code(IAAC) using AWS Services and TERRAFORM + GITHUB.(using EFS instead of EBS)",
+    img: "https://media-exp1.licdn.com/dms/image/C4E12AQFGsrdHIiosFQ/article-cover_image-shrink_720_1280/0/1597748470733?e=1639008000&v=beta&t=jsrAC-tysnKSNlZNkYX7Y5AYWjvdPPxguQEKPSHcmDE",
+    link: "https://www.linkedin.com/pulse/task-2-infrastructure-codeiaac-using-aws-services-terraform-kumar",
   },
   {
     id: 4,
-    title: "Design Relax Mobile App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Deploy Wordpress+MySql on AWS in our own VPC",
+    img: "https://media-exp1.licdn.com/dms/image/C4E12AQHS-xG-2OThMg/article-cover_image-shrink_423_752/0/1599141722538?e=1639008000&v=beta&t=lKHtWu-yzFWS8TjbROeKBmv7Yk8sG60VcDkz4NKfUl4",
+    link: "https://www.linkedin.com/pulse/deploy-wordpressmysql-aws-our-own-vpctask-3-pushkar-kumar",
   },
   {
     id: 5,
-    title: "Design Keser Web Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title:
+      "Hybrid Multi Cloud Setup-WordPress on Kubernetes and RDS  of AWS for data Storage",
+    img: "https://media-exp1.licdn.com/dms/image/C4E12AQEdRDZK8Twezg/article-cover_image-shrink_720_1280/0/1602613232293?e=1639008000&v=beta&t=1YBdm9qHgqJcDEOLPiFnZ5lSCM0gueFd6j4hG5AT2Wo",
+    link: "https://www.linkedin.com/pulse/hybrid-multi-cloud-setup-wordpress-deployed-kubernetes-pushkar-kumar",
   },
   {
     id: 6,
-    title: "Design Banking App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title:
+      "Deploy Wordpress+Mysql on AWS and Create a NAT Gateway and Bastion host for management",
+    img: "https://media-exp1.licdn.com/dms/image/C4E12AQFmGAwq2o-egA/article-cover_image-shrink_423_752/0/1603225374361?e=1639008000&v=beta&t=fzeKibN4gUxpTD97yt-afQm3qIokSq96c8j9kObzsnY",
+    link: "https://www.linkedin.com/pulse/deploy-wordpressmysql-aws-create-nat-gateway-bastion-host-kumar",
   },
 ];
 
-export const contentPortfolio = [
+export const devopsPortfolio = [
   {
     id: 1,
-    title: "Content Social Media App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Ansible- Playbook to configure web Apache Server on Docker",
+    img: "https://media-exp1.licdn.com/dms/image/C4E12AQENCS6fDbYybQ/article-cover_image-shrink_423_752/0/1598097235990?e=1639008000&v=beta&t=t628KwIabLtw9eI_n4Z0Bpu13r_TGmhst2d5XyPdi3g",
+    link: "https://www.linkedin.com/pulse/ansible-playbook-configure-web-apache-server-pushkar-kumar",
   },
   {
     id: 2,
-    title: "Content Rampa UI Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title:
+      "Deploy Web Server on AWS through ANSIBLE and Retrieve the IP using dynamic inventory concept",
+    img: "https://media-exp1.licdn.com/dms/image/C4E12AQER8QQeAoYQ0w/article-cover_image-shrink_423_752/0/1598353859770?e=1639008000&v=beta&t=gNu2MFkERWBzkAJ-RWKChJ5qSvoS6OrjZfeNtNmdOVI",
+    link: "https://www.linkedin.com/pulse/deploy-web-server-aws-through-ansible-retrieve-ip-using-pushkar-kumar",
   },
   {
     id: 3,
-    title: "Content E-commerce Web Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 4,
-    title: "Content Relax Mobile App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 5,
-    title: "Content Keser Web Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 6,
-    title: "Content Banking App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title:
+      "Full Backend API app with node docker sql and fast deploy using Terraform ",
+    img: "https://miro.medium.com/max/1600/1*_MtS4HqN2srTcrSyet61DQ.jpeg",
+    link: "https://github.com/pushkar02-op/node-docker",
   },
 ];
