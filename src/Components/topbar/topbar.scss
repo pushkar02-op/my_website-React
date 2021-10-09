@@ -24,6 +24,11 @@
         font-weight: 700;
         text-decoration: none;
         color: inherit;
+        background-color: $mainColor;
+        .MuiAvatar-colorDefault {
+          color: $mainColor;
+          background-color: white;
+        }
       }
       .itemContainer {
         display: flex;

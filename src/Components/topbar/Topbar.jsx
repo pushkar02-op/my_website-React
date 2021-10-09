@@ -1,5 +1,6 @@
 import "./topbar.scss";
 import { Mail } from "@material-ui/icons";
+import Avatar from "@mui/material/Avatar";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   const gitHubLink = "https://github.com/pushkar02-op";
@@ -12,7 +13,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            Logo
+            <Avatar>P</Avatar>
           </a>
           <div className="itemContainer">
             <div className="myicon" onClick={() => openLink(gitHubLink)}>

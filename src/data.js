@@ -227,3 +227,20 @@ export const data = [
       "https://www.linkedin.com/pulse/flutter-app-development-create-basic-music-play-pause-pushkar-kumar",
   },
 ];
+export const timeItems = [
+  {
+    title: "Aug 2021 - Present",
+    cardTitle: "PWC",
+    cardSubtitle: "Started my IT journey as a Technical Consultant",
+  },
+  {
+    title: "Jan 2021 - July 2021",
+    cardTitle: "Highradius",
+    cardSubtitle: "Worked as a Technical Intern",
+  },
+  {
+    title: "July 2017 - July 2021",
+    cardTitle: "B-Tech in Information Technology",
+    cardSubtitle: "Completed my B-Tech in IT",
+  },
+];

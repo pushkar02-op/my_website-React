@@ -45,15 +45,6 @@ export default function Work() {
               </div>
               <div className="right">
                 <img src={d.link} alt="" />
-                {/* <iframe
-                  src={d.link}
-                  height="400"
-                  width="530"
-                  frameBorder="0"
-                  allowFullScreen={true}
-                  title="Blog post"
-                  scrolling="no"
-                ></iframe> */}
               </div>
             </div>
           </div>
