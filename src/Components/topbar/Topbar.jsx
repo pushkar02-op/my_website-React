@@ -1,10 +1,26 @@
 import "./topbar.scss";
 import { Mail } from "@material-ui/icons";
 import Avatar from "@mui/material/Avatar";
+import Button from "@material-ui/core/Button";
+import { useState } from "react";
+import Modal from "@material-ui/core/Modal";
+import ReactPdf from "../reactPdf/ReactPdf";
+import { BiDownload } from "react-icons/bi";
+import { GrClose } from "react-icons/gr";
+import { IconContext } from "react-icons";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   const gitHubLink = "https://github.com/pushkar02-op";
   const linkedinLink = "https://www.linkedin.com/in/pushkar-kumar2312/";
+
+  const [modalOpen, setmodalOpen] = useState(false);
+
+  const handleOpen = () => {
+    setmodalOpen(true);
+  };
+  const handleClose = () => {
+    setmodalOpen(false);
+  };
   const openLink = (link) => {
     window.open(link, "mywindow");
   };
@@ -33,13 +49,41 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           </div>
           <div className="itemContainer">
             <Mail className="icon" fontSize="medium" />
-            {/* <span>pushkarshwar@gmail.com</span> */}
             <a href="mailto:pushkarishwar@gmail.com">
               <span>pushkarshwar@gmail.com</span>
             </a>
           </div>
         </div>
         <div className="right">
+          <div className="resume">
+            <Button onClick={handleOpen}>
+              <h4>Download CV</h4>
+            </Button>
+            <Modal
+              aria-labelledby="simple-modal-title"
+              aria-describedby="simple-modal-description"
+              open={modalOpen}
+              onClose={handleClose}
+            >
+              <div className="modal">
+                <div className="modalheader">
+                  <IconContext.Provider value={{ className: "react-icons" }}>
+                    <div>
+                      <a
+                        href="assets/Pushkar kumar (2).pdf"
+                        download="Pushkar_Kumar_Resume.pdf"
+                      >
+                        <BiDownload />
+                      </a>
+                    </div>
+                  </IconContext.Provider>
+                  <h3>Resume</h3>
+                  <GrClose fontSize="2rem" onClick={handleClose} />
+                </div>
+                <ReactPdf />
+              </div>
+            </Modal>
+          </div>
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             <span className="line1"></span>
             <span className="line2"></span>
