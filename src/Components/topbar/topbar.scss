@@ -8,6 +8,9 @@
   top: 0%;
   right: 0%;
   background-color: var(--color-secondary);
+  @include mobile {
+    width: 100vw;
+  }
   .modalheader {
     height: 10vh;
     display: flex;
