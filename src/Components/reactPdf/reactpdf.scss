@@ -10,4 +10,8 @@
 }
 .react-pdf__Page__textContent {
   height: 100% !important;
+
+  span {
+    overflow: visible;
+  }
 }

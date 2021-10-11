@@ -8,7 +8,7 @@ export default function ReactPdf() {
   useEffect(() => {
     setheight(window.innerHeight - 100);
   }, []);
-  console.log(height);
+
   return (
     <div>
       <Document
@@ -19,7 +19,7 @@ export default function ReactPdf() {
           pageNumber={1}
           height={height}
           renderAnnotationLayer={false}
-          scale={1}
+          scale={0.8}
         />
       </Document>
     </div>

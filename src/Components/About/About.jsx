@@ -96,12 +96,13 @@ export default function About() {
   const [color, setcolor] = useState("#15023a");
   const [selected, setselected] = useState();
 
-  const tool = tools.map((t, id) => {
+  const tool = tools.map((t, index) => {
     const Tool = t.toolIcon;
     const toolname = t.toolname;
 
     return (
       <div
+        key={index}
         className="toolitem"
         onMouseEnter={() => {
           setselected(toolname);
@@ -118,12 +119,13 @@ export default function About() {
     );
   });
 
-  const icon = icons.map((genre, idx) => {
+  const icon = icons.map((genre, index) => {
     const Icon = genre.icon;
     const name = genre.name;
 
     return (
       <div
+        key={index}
         className="item"
         onMouseEnter={() => {
           setselected(name);
