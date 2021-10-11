@@ -1,7 +1,14 @@
 import "./reactpdf.scss";
 import { Document, Page } from "react-pdf";
+import { useState, useEffect } from "react";
 
 export default function ReactPdf() {
+  const [height, setheight] = useState(700);
+
+  useEffect(() => {
+    setheight(window.innerHeight - 100);
+  }, []);
+  console.log(height);
   return (
     <div>
       <Document
@@ -10,7 +17,7 @@ export default function ReactPdf() {
       >
         <Page
           pageNumber={1}
-          height={650}
+          height={height}
           renderAnnotationLayer={false}
           scale={1}
         />
