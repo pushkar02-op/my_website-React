@@ -38,6 +38,12 @@ export const featuredPortfolio = [
     img: "https://media-exp1.licdn.com/dms/image/C4E12AQENCS6fDbYybQ/article-cover_image-shrink_423_752/0/1598097235990?e=1639008000&v=beta&t=t628KwIabLtw9eI_n4Z0Bpu13r_TGmhst2d5XyPdi3g",
     link: "https://www.linkedin.com/pulse/ansible-playbook-configure-web-apache-server-pushkar-kumar",
   },
+  {
+    id: 7,
+    title: " Backend for  Callworkboard app using Fast Api, Docker, Python.",
+    img: "https://repository-images.githubusercontent.com/260928305/92388600-8d1c-11ea-9993-a726466b5099",
+    link: "https://github.com/pushkar02-op/React-Highradius-Backend",
+  },
 ];
 
 export const webPortfolio = [
@@ -58,6 +64,12 @@ export const webPortfolio = [
     title: "Resort Website using Html,Css and JS",
     img: "https://raw.githubusercontent.com/pushkar02-op/Mytaskimages/master/Websites/Screenshot%20(9).png",
     link: "https://github.com/pushkar02-op/Websites/tree/main/Resort-Website",
+  },
+  {
+    id: 4,
+    title: " Backend for  Callworkboard app using Fast Api, Docker, Python.",
+    img: "https://repository-images.githubusercontent.com/260928305/92388600-8d1c-11ea-9993-a726466b5099",
+    link: "https://github.com/pushkar02-op/React-Highradius-Backend",
   },
 ];
 
@@ -141,6 +153,12 @@ export const devopsPortfolio = [
       "Full Backend API app with node docker sql and fast deploy using Terraform ",
     img: "https://miro.medium.com/max/1600/1*_MtS4HqN2srTcrSyet61DQ.jpeg",
     link: "https://github.com/pushkar02-op/node-docker",
+  },
+  {
+    id: 4,
+    title: " Backend for  Callworkboard app using Fast Api, Docker, Python.",
+    img: "https://repository-images.githubusercontent.com/260928305/92388600-8d1c-11ea-9993-a726466b5099",
+    link: "https://github.com/pushkar02-op/React-Highradius-Backend",
   },
 ];
 
